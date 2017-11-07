@@ -38,7 +38,7 @@ def main():
     key = strxor(text, enc)
  
  
-    text2 = "attack at monkey"
+    text2 = "attack on titan"
     enc2 = strxor(text2, key)
  
     print enc2.encode('hex')
